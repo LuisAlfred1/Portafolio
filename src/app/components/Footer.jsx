@@ -13,19 +13,19 @@ export default function Footer() {
               href="https://github.com/tuusuario"
               className="text-gray-600 hover:text-indigo-600"
             >
-              GitHub
+              GitHub <i className="bi bi-github"></i>
             </a>
             <a
               href="https://linkedin.com/in/tuusuario"
               className="text-gray-600 hover:text-indigo-600"
             >
-              LinkedIn
+              LinkedIn <i className="bi bi-linkedin"></i>
             </a>
             <a
               href="https://twitter.com/tuusuario"
               className="text-gray-600 hover:text-indigo-600"
             >
-              Twitter
+              Instagram <i className="bi bi-instagram"></i>
             </a>
           </div>
         </div>

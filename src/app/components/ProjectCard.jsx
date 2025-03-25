@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
   const { title, description, image, tags, link } = project;
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition hover:shadow-lg">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden transition hover:shadow-lg text-black">
       <div className="relative h-48">
         <Image
           src={image || "/placeholder-project.jpg"}
