@@ -41,7 +41,9 @@ export default function HomePage() {
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl font-bold mb-4">
                 Un gusto saludarte, mi nombre es{" "}
-                <span className="text-yellow-300">Luis Reyes</span>
+                <span className=" via-white bg-clip-text font-bold text-shadow-lg drop-shadow-md hover:drop-shadow-xl transition duration-500 ease-in-out tracking-wide">
+                  Luis Reyes
+                </span>
               </h1>
               <h2 className="text-2xl mb-6">Programador Junior</h2>
               <p className="text-lg mb-8">
@@ -51,13 +53,13 @@ export default function HomePage() {
               <div className="flex space-x-4">
                 <Link
                   href="/projects"
-                  className="bg-white text-indigo-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition"
+                  className="bg-white text-[#064e3b] px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition"
                 >
                   Ver proyectos
                 </Link>
                 <Link
                   href="/contact"
-                  className="border-2 border-white text-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-indigo-600 transition"
+                  className="border-2 border-white text-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-[#064e3b] transition"
                 >
                   Contactar
                 </Link>
@@ -126,11 +128,11 @@ export default function HomePage() {
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-10 w-10 hover:scale-110 transition-transform duration-300"
                 >
-                  <title>Next.js</title>
-                  <path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z" />
+                  <title>JavaScript</title>
+                  <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
                 </svg>
               </div>
-              <h3 className="font-medium text-lg">Next.js</h3>
+              <h3 className="font-medium text-lg">JavaScript</h3>
             </div>
 
             <div className="flex flex-col items-center">
