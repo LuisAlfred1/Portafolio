@@ -35,7 +35,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
+      <section className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
@@ -43,7 +43,7 @@ export default function HomePage() {
                 Un gusto saludarte, mi nombre es{" "}
                 <span className="text-yellow-300">Luis Reyes</span>
               </h1>
-              <h2 className="text-2xl mb-6">Soy programador junior</h2>
+              <h2 className="text-2xl mb-6">Programador Junior</h2>
               <p className="text-lg mb-8">
                 Desarrollo soluciones web modernas y eficientes. Especializado
                 en React, Next.js y ASP.NET.
@@ -172,7 +172,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <Link
               href="/projects"
-              className="bg-indigo-600 text-white px-6 py-3 rounded-md font-medium hover:bg-indigo-700 transition"
+              className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white px-6 py-3 rounded-md font-medium hover:from-[#065f46] transition"
             >
               Ver todos los proyectos
             </Link>
