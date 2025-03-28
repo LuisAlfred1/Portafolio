@@ -90,7 +90,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {/* Skill item */}
             <div className="flex flex-col items-center">
-              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4 cursor-pointer">
                 <svg
                   role="img"
                   viewBox="0 0 24 24"
@@ -106,7 +106,7 @@ export default function HomePage() {
 
             {/* Más skills... */}
             <div className="flex flex-col items-center">
-              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4 cursor-pointer">
                 <svg
                   role="img"
                   viewBox="0 0 24 24"
@@ -121,7 +121,7 @@ export default function HomePage() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4 cursor-pointer">
                 <svg
                   role="img"
                   viewBox="0 0 24 24"
@@ -136,7 +136,7 @@ export default function HomePage() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-4 cursor-pointer">
                 <svg
                   role="img"
                   viewBox="0 0 24 24"
