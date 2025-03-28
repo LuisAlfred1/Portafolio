@@ -69,7 +69,7 @@ export default function HomePage() {
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white">
                 {/* Reemplaza con tu imagen */}
                 <Image
-                  src="https://res.cloudinary.com/dmgdrxfar/image/upload/v1737068480/Image_if0fvg.jpg"
+                  src="https://res.cloudinary.com/dmgdrxfar/image/upload/v1743191050/ChatGPT_Image_28_mar_2025_12_43_26_g9ge2m.png"
                   alt="LUIS REYES"
                   fill
                   className="object-cover"

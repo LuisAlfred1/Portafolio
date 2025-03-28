@@ -38,8 +38,7 @@ export default function Navbar() {
               href="/"
               className="text-2xl text-emerald-600 font-extrabold  bg-clip-text flex items-center gap-2"
             >
-              Portafolio{" "}
-              <i className="bi bi-briefcase-fill text-emerald-600"></i>
+              <img src="/images/luisDev.png" alt="" className="h-10"/>
             </Link>
 
             {/* Navegación escritorio */}
