@@ -174,7 +174,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <Link
               href="/projects"
-              className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white px-6 py-3 rounded-md font-medium hover:from-[#065f46] transition"
+              className="bg-[#064e3b]  text-white px-6 py-3 rounded-md font-medium hover:bg-[#065f46] transition"
             >
               Ver todos los proyectos
             </Link>

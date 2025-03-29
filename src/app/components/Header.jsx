@@ -30,7 +30,7 @@ export default function Navbar() {
       />
 
       {/* Navbar */}
-      <header className="backdrop-blur-lg bg-white/100 shadow-sm sticky top-0 z-50 transition duration-300">
+      <header className="backdrop-blur-lg bg-black text-white shadow-sm sticky top-0 z-50 transition duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             {/* Logo */}
@@ -38,41 +38,33 @@ export default function Navbar() {
               href="/"
               className="text-2xl text-emerald-600 font-extrabold  bg-clip-text flex items-center gap-2"
             >
-              <img src="/images/luisDev.png" alt="" className="h-10"/>
+              <img src="/images/LuisBlack.png" alt="" className="h-10" />
             </Link>
 
             {/* Navegación escritorio */}
             <nav className="hidden md:flex space-x-10 items-center">
               <Link
                 href="/"
-                className="relative group text-gray-800 font-medium transition duration-300"
+                className="relative group  font-medium transition duration-300"
               >
-                Inicio
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-indigo-500 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-
-              <Link
-                href="/sobremi"
-                className="relative group text-gray-800 font-medium transition duration-300"
-              >
-                Sobre mí
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-indigo-500 group-hover:w-full transition-all duration-300"></span>
+                Inicio <i className="bi bi-house"></i>
+                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
               </Link>
 
               <Link
                 href="/proyectos"
-                className="relative group text-gray-800 font-medium transition duration-300"
+                className="relative group  font-medium transition duration-300"
               >
-                Proyectos
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-indigo-500 group-hover:w-full transition-all duration-300"></span>
+                Proyectos <i className="bi bi-folder2"></i>
+                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
               </Link>
 
               <Link
                 href="/contact"
-                className="relative group text-gray-800 font-medium transition duration-300"
+                className="relative group  font-medium transition duration-300"
               >
-                Contacto
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-indigo-500 group-hover:w-full transition-all duration-300"></span>
+                Contacto <i className="bi bi-whatsapp"></i>
+                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
               </Link>
             </nav>
 

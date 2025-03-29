@@ -64,7 +64,7 @@ export default function ContactPage() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto">
           <div className="md:flex">
             {/* Información de contacto */}
-            <div className="bg-indigo-600 text-white md:w-2/5 p-8">
+            <div className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white md:w-2/5 p-8">
               <h2 className="text-2xl font-bold mb-4">
                 Información de contacto
               </h2>
@@ -294,7 +294,7 @@ export default function ContactPage() {
 
                   <button
                     type="submit"
-                    className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors"
+                    className="w-full bg-[#064e3b] text-white py-2 px-4 rounded-md hover:bg-[#065f46] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors cursor-pointer"
                   >
                     Enviar mensaje
                   </button>
