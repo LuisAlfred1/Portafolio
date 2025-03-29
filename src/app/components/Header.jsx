@@ -72,7 +72,7 @@ export default function Navbar() {
             <div className="md:hidden">
               <button
                 onClick={toggleMenu}
-                className="text-gray-800 hover:text-indigo-600 focus:outline-none transition duration-300"
+                className="text-white cursor-pointer focus:outline-none transition duration-300"
               >
                 <svg
                   className="h-6 w-6"
