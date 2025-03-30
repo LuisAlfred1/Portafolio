@@ -105,22 +105,20 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden bg-white/90 backdrop-blur-md shadow-md border-t">
             <div className="px-4 py-3 space-y-2">
-              {["Inicio", "Sobre mí", "Proyectos", "Contacto"].map(
-                (text, index) => (
-                  <Link
-                    key={index}
-                    href={
-                      text === "Inicio"
-                        ? "/"
-                        : `/${text.toLowerCase().replace(" ", "")}`
-                    }
-                    onClick={toggleMenu}
-                    className="block px-3 py-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 transition duration-300"
-                  >
-                    {text}
-                  </Link>
-                )
-              )}
+              {["Inicio", "Proyectos", "Contacto"].map((text, index) => (
+                <Link
+                  key={index}
+                  href={
+                    text === "Inicio"
+                      ? "/"
+                      : `/${text.toLowerCase().replace(" ", "")}`
+                  }
+                  onClick={toggleMenu}
+                  className="block px-3 py-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 transition duration-300"
+                >
+                  {text}
+                </Link>
+              ))}
             </div>
           </div>
         )}
