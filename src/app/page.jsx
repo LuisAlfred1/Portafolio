@@ -1,7 +1,10 @@
+"use client";
+
 // app/page.jsx
 import Link from "next/link";
 import Image from "next/image";
 import ProjectCard from "./components/ProjectCard";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function HomePage() {
   // Datos de ejemplo para proyectos
@@ -41,11 +44,20 @@ export default function HomePage() {
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl font-bold mb-4">
                 Un gusto saludarte, mi nombre es{" "}
-                <span className=" via-white bg-clip-text font-bold text-shadow-lg drop-shadow-md hover:drop-shadow-xl transition duration-500 ease-in-out tracking-wide">
+                <span className=" via-white bg-clip-text font-bold text-shadow-lg drop-shadow-md tracking-wide">
                   Luis Reyes
                 </span>
               </h1>
-              <h2 className="text-2xl mb-6">Programador Junior</h2>
+              <h2 className="text-2xl mb-6">
+                <Typewriter
+                  words={["Programador Junior"]}
+                  loop={1} // Solo escribe una vez
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={50} // Velocidad de escritura
+                  //deleteSpeed={false} // Velocidad al borrar (si quisieras efecto de borrado)
+                />
+              </h2>
               <p className="text-lg mb-8">
                 Desarrollo soluciones web modernas y eficientes. Especializado
                 en React, Next.js y ASP.NET.
