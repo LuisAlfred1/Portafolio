@@ -11,21 +11,21 @@ export default function Footer() {
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a
               href="https://github.com/tuusuario"
-              className="text-gray-600 hover:text-indigo-600"
+              className="text-black hover:text-[#064e3b] duration-300"
             >
-              GitHub <i className="bi bi-github"></i>
+              <i className="bi bi-github text-2xl"></i>
             </a>
             <a
               href="https://linkedin.com/in/tuusuario"
-              className="text-gray-600 hover:text-indigo-600"
+              className="text-black hover:text-[#064e3b] duration-300"
             >
-              LinkedIn <i className="bi bi-linkedin"></i>
+              <i className="bi bi-linkedin text-2xl"></i>
             </a>
             <a
-              href="https://twitter.com/tuusuario"
-              className="text-gray-600 hover:text-indigo-600"
+              href="https://instagram.com/tuusuario"
+              className="text-black hover:text-[#064e3b] duration-300"
             >
-              Instagram <i className="bi bi-instagram"></i>
+              <i className="bi bi-instagram text-2xl"></i>
             </a>
           </div>
         </div>
