@@ -52,7 +52,7 @@ export default function Navbar() {
               </Link>
 
               <Link
-                href="/proyectos"
+                href="/projects"
                 className="relative group !font-bold font-medium transition duration-300"
               >
                 Proyectos <i className="bi bi-folder2"></i>
