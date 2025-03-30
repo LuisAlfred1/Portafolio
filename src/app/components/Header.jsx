@@ -45,7 +45,7 @@ export default function Navbar() {
             <nav className="hidden md:flex space-x-10 items-center">
               <Link
                 href="/"
-                className="relative group  font-medium transition duration-300"
+                className="relative group !font-bold font-medium transition duration-300"
               >
                 Inicio <i className="bi bi-house"></i>
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
@@ -53,7 +53,7 @@ export default function Navbar() {
 
               <Link
                 href="/proyectos"
-                className="relative group  font-medium transition duration-300"
+                className="relative group !font-bold font-medium transition duration-300"
               >
                 Proyectos <i className="bi bi-folder2"></i>
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
@@ -61,7 +61,7 @@ export default function Navbar() {
 
               <Link
                 href="/contact"
-                className="relative group  font-medium transition duration-300"
+                className="relative group !font-bold font-medium transition duration-300"
               >
                 Contacto <i className="bi bi-whatsapp"></i>
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#0a7d5f] group-hover:w-full transition-all duration-300"></span>
