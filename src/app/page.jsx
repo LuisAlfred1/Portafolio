@@ -49,12 +49,12 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white py-30">
+      <section className="bg-gradient-to-r from-[#064e3b] to-[#065f46] text-white py-25">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl font-bold mb-4">
-                Un gusto saludarte, mi nombre es{" "}
+                Es un gusto saludarte, mi nombre es{" "}
                 <span className=" via-white bg-clip-text font-bold text-shadow-lg drop-shadow-md tracking-wide">
                   Luis Reyes
                 </span>
@@ -71,9 +71,12 @@ export default function HomePage() {
               </h2>
               <p className="text-lg mb-8">
                 Soy un estudiante apasionado por el aprendizaje y el desarrollo
-                web. He trabajado en proyectos personales y universitarios,
-                creando aplicaciones modernas y funcionales con tecnologías
-                React, Flask, Next.js y ASP.NET.
+                web. He trabajado en proyectos personales y universitarios
+                creando aplicaciones modernas y funcionales con frameworks como
+                <span className="text-white shadow-lg font-semibold">
+                  {" "}
+                  React, Flask, Next.js y ASP.NET.
+                </span>{" "}
               </p>
 
               <div className="flex space-x-4">
