@@ -11,18 +11,24 @@ export default function Footer() {
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a
               href="https://github.com/tuusuario"
+              target="_blank" //Hace que el enlace se abra en una nueva pestaña.
+              rel="noopener noreferrer" //Mejora la seguridad al abrir enlaces externos.
               className="text-black hover:text-[#064e3b] duration-300"
             >
               <i className="bi bi-github text-2xl"></i>
             </a>
             <a
               href="https://linkedin.com/in/tuusuario"
+              target="_blank" //Hace que el enlace se abra en una nueva pestaña.
+              rel="noopener noreferrer"
               className="text-black hover:text-[#064e3b] duration-300"
             >
               <i className="bi bi-linkedin text-2xl"></i>
             </a>
             <a
               href="https://instagram.com/tuusuario"
+              target="_blank" //Hace que el enlace se abra en una nueva pestaña.
+              rel="noopener noreferrer"
               className="text-black hover:text-[#064e3b] duration-300"
             >
               <i className="bi bi-instagram text-2xl"></i>

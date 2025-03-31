@@ -61,7 +61,7 @@ export default function HomePage() {
               </h1>
               <h2 className="text-2xl mb-6">
                 <Typewriter
-                  words={["Programador Junior"]}
+                  words={["</ Programador Junior >"]}
                   loop={1} // Solo escribe una vez
                   cursor
                   cursorStyle="|"
