@@ -61,10 +61,10 @@ export default function HomePage() {
               </h1>
               <h2 className="text-2xl mb-6">
                 <Typewriter
-                  words={["</ Programador Junior >"]}
+                  words={["> Programador Junior"]}
                   loop={1} // Solo escribe una vez
                   cursor
-                  cursorStyle="|"
+                  cursorStyle="_"
                   typeSpeed={50} // Velocidad de escritura
                   //deleteSpeed={false} // Velocidad al borrar (si quisieras efecto de borrado)
                 />
