@@ -69,7 +69,7 @@ export default function HomePage() {
                   //deleteSpeed={false} // Velocidad al borrar (si quisieras efecto de borrado)
                 />
               </h2>
-              <p className="text-lg mb-8">
+              <p className="text-lg mb-8 text-justify">
                 Soy un estudiante apasionado por el aprendizaje y el desarrollo
                 web. He trabajado en proyectos personales y universitarios
                 creando aplicaciones modernas y funcionales con frameworks como
