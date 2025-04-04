@@ -75,16 +75,16 @@ export default function HomePage() {
                 creando aplicaciones modernas y funcionales con frameworks como
                 <span className="text-white shadow-lg font-semibold">
                   {" "}
-                  React, Flask, Next.js y ASP.NET.
+                  React, Flask, Next.js y ASP.NET
                 </span>{" "}
               </p>
 
               <div className="flex space-x-4">
                 <Link
-                  href="/projects"
+                  href="/"
                   className="bg-white text-[#064e3b] px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition"
                 >
-                  Ver proyectos
+                  Imprimir CV <i className="bi bi-file-person"></i>
                 </Link>
                 <Link
                   href="/contact"
