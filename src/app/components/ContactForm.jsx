@@ -104,13 +104,12 @@ export default function ContactForm() {
             <h3 className="text-xl font-bold mb-4">Redes sociales</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/tuusuario"
+                href="https://github.com/LuisAlfred1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-200"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="h-6 w-6 transition-transform duration-200 hover:scale-125"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -118,13 +117,12 @@ export default function ContactForm() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/tuusuario"
+                href="https://www.linkedin.com/in/luis-reyes-5a9a50246"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-200"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="h-6 w-6 transition-transform duration-200 hover:scale-125"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -132,13 +130,12 @@ export default function ContactForm() {
                 </svg>
               </a>
               <a
-                href="https://Instagram.com/tuusuario"
+                href="https://instagram.com/luis_reyesnk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-200"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="h-6 w-6 transition-transform duration-200 hover:scale-125"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
