@@ -2,6 +2,8 @@
 import { useState } from "react";
 
 export default function ContactForm() {
+  const [estado, setEstado] = useState("Enviar");
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,6 +24,7 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    setEstado("Enviando...");
 
     // Validación básica
     if (!formData.name || !formData.email || !formData.message) {
@@ -30,17 +33,30 @@ export default function ContactForm() {
     }
 
     // Aquí normalmente enviarías los datos a tu backend
-    // Por ahora solo simulamos un envío exitoso
     try {
       // Simular envío con un retardo
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
+      const response = await fetch("https://formspree.io/f/mzzejwbv", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+        setEstado("Enviar");
+      } else {
+        setError(
+          "Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente."
+        );
+      }
     } catch (err) {
       setError(
         "Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente."
@@ -171,7 +187,7 @@ export default function ContactForm() {
               </p>
               <button
                 onClick={() => setSubmitted(false)}
-                className="mt-6 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700"
+                className="mt-6 bg-[#064e3b] text-white py-2 px-4 rounded-md hover:bg-[#065f46] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors cursor-pointer"
               >
                 Enviar otro mensaje
               </button>
@@ -193,7 +209,7 @@ export default function ContactForm() {
                   htmlFor="name"
                   className="block text-gray-700 font-medium mb-2"
                 >
-                  Nombre completo <span className="text-red-500">*</span>
+                  Nombre <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -263,7 +279,7 @@ export default function ContactForm() {
                 type="submit"
                 className="w-full bg-[#064e3b] text-white py-2 px-4 rounded-md hover:bg-[#065f46] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors cursor-pointer"
               >
-                Enviar mensaje
+                {estado}
               </button>
             </form>
           )}
