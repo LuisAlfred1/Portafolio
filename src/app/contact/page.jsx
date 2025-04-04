@@ -13,8 +13,8 @@ export default function ContactPage() {
             Estoy en busca de oportunidades laborales como programador. Si
             tienes alguna vacante, deseas conocer más sobre mis proyectos o
             simplemente ponerte en contacto, puedes usar el formulario y me
-            comunicaré contigo lo antes posible.
-            <i className="bi bi-emoji-laughing"></i>
+            comunicaré contigo lo antes posible.{" "}
+            <i className="bi bi-chat-dots"></i>
           </p>
         </div>
         <ContactForm />
