@@ -72,7 +72,7 @@ export default function HomePage() {
               <p className="text-lg mb-8 text-justify">
                 Soy un estudiante apasionado por el aprendizaje y el desarrollo
                 web. He trabajado en proyectos personales y universitarios
-                creando aplicaciones modernas y funcionales con frameworks como
+                creando aplicaciones modernas y funcionales con frameworks de
                 <span className="text-white shadow-lg font-semibold">
                   {" "}
                   React, Flask, Next.js y ASP.NET
