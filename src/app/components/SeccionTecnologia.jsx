@@ -54,7 +54,7 @@ export default function SeccionTecnologia() {
         {tecnologias.map((tec, index) => (
           <div
             key={index}
-            className={`rounded-2xl p-6 flex flex-col items-center justify-center shadow-lg border-2 border-black/10 hover:border-green-400 transition duration-200 ${tec.color}`}
+            className={`rounded-2xl p-6 flex flex-col items-center justify-center shadow-lg border-2 border-black/5 hover:border-green-400 transition duration-200 ${tec.color}`}
           >
             <img src={tec.imagen} alt={tec.nombre} className="w-16 h-16 mb-4" />
             <p className="text-xl font-semibold">{tec.nombre}</p>
