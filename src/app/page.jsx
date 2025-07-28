@@ -2,6 +2,7 @@
 import Titulo from "./components/Titulo";
 import SeccionTecnlogia from "./components/SeccionTecnologia";
 import SobreMi from "./components/SobreMi";
+import Proyectos from "./components/Proyectos";
 // app/page.jsx
 
 export default function HomePage() {
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Titulo />
       <SobreMi />
       <SeccionTecnlogia />
+      <Proyectos />
     </>
   );
 }
