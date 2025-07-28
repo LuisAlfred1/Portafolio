@@ -6,6 +6,9 @@ import DashboardLayout from "./components/DashboardLayout";
 export const metadata = {
   title: "Mi Portafolio",
   description: "Portafolio profesional de [Tu Nombre]",
+  icons: {
+    icon: "lr.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
