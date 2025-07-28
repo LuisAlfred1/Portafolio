@@ -1,8 +1,10 @@
 "use client";
 import Titulo from "./components/Titulo";
-import SeccionTecnlogia from "./components/SeccionTecnologia";
+import SeccionTecnologia from "./components/SeccionTecnologia";
 import SobreMi from "./components/SobreMi";
 import Proyectos from "./components/Proyectos";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 // app/page.jsx
 
 export default function HomePage() {
@@ -10,8 +12,10 @@ export default function HomePage() {
     <>
       <Titulo />
       <SobreMi />
-      <SeccionTecnlogia />
+      <SeccionTecnologia />
       <Proyectos />
+      <ContactForm />
+      <Footer />
     </>
   );
 }
