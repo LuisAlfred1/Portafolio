@@ -1,6 +1,7 @@
 export default function Sidebar() {
   return (
-    <aside className="bg-[#171717] text-white w-64 h-full fixed border-r-2 border-[#262626]">
+    <aside className="hidden md:block bg-[#171717] text-white w-64 h-full fixed border-r-2 border-[#262626]">
+      {/* En tu Layout o componente principal */}
       <ul className="flex flex-col gap-4 mt-20 text-center">
         <img
           src="https://png.pngtree.com/png-vector/20250519/ourlarge/pngtree-happy-man-png-sticker-png-image_16332737.png"
@@ -8,7 +9,7 @@ export default function Sidebar() {
         />
         <div className="flex gap-4 justify-center text-xl text-white">
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/LuisAlfred1"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

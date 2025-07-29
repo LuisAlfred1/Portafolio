@@ -222,6 +222,9 @@ export default function DinoGame() {
   // Manejo de teclas
   useEffect(() => {
     const handleKeyDown = (e) => {
+      // 👇 Evitar controlar teclas si estás escribiendo en un input/textarea
+      const tag = document.activeElement.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
       const gameState = gameStateRef.current;
       gameState.keys.add(e.key);
 
@@ -258,11 +261,11 @@ export default function DinoGame() {
       <canvas ref={canvasRef} width={1000} height={200} />
       <div>
         {gameOver && (
-          <div className="text-gray-300 absolute inset-0 items-center justify-center flex flex-col gap-2 font-mono">
+          <div className="text-gray-300 absolute inset-0 bg-black/20 rounded-2xl items-center justify-center flex flex-col gap-2 font-mono">
             Game Over!{" "}
             <div>
               Presiona{" "}
-              <span className="inline-block bg-black/20 text-white px-4 py-1 rounded font-mono text-sm">
+              <span className="inline-block bg-black/80 text-white px-4 py-1 rounded font-mono text-sm">
                 space
               </span>{" "}
               para seguir jugando

@@ -21,7 +21,7 @@ export default function Navbar() {
     >
       <ul className="flex gap-4">
         <li>
-          <a href="/blog" className="hover:text-green-300 transition">
+          <a href="./components/SobreMi" className="hover:text-green-300 transition">
             Sobre mí
           </a>
         </li>

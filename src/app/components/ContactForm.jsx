@@ -52,11 +52,15 @@ export default function ContactForm() {
 
   return (
     <div className="max-w-xl mx-auto px-6 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">Contáctame</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">
+        Contáctame
+      </h2>
 
       {submitted ? (
         <div className="text-center">
-          <p className="text-green-400 text-lg font-medium mb-4">¡Gracias por tu mensaje!</p>
+          <p className="text-green-400 text-lg font-medium mb-4">
+            ¡Gracias por tu mensaje!
+          </p>
           <button
             onClick={() => setSubmitted(false)}
             className="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 transition"
@@ -67,14 +71,15 @@ export default function ContactForm() {
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
           {error && (
-            <div className="bg-red-100 text-red-600 p-4 rounded">
-              {error}
-            </div>
+            <div className="bg-red-100 text-red-600 p-4 rounded">{error}</div>
           )}
 
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-white mb-1">
-              Nombre <span className="text-red-500">*</span>
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-white mb-1"
+            >
+              Nombre
             </label>
             <input
               type="text"
@@ -88,8 +93,11 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-white mb-1">
-              Correo electrónico <span className="text-red-500">*</span>
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-white mb-1"
+            >
+              Correo electrónico
             </label>
             <input
               type="email"
@@ -103,8 +111,11 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-white mb-1">
-              Mensaje <span className="text-red-500">*</span>
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-white mb-1"
+            >
+              Mensaje
             </label>
             <textarea
               id="message"
@@ -119,7 +130,7 @@ export default function ContactForm() {
 
           <button
             type="submit"
-            className="w-full bg-green-700 text-white py-2 rounded hover:bg-green-800 transition"
+            className="w-full bg-green-700 text-white py-2 rounded hover:bg-green-800 transition cursor-pointer"
           >
             {estado}
           </button>
