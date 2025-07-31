@@ -53,7 +53,7 @@ export default function ContactForm() {
   return (
     <div className="max-w-xl mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-center mb-8 text-white">
-        Contáctame
+        Contacto directo
       </h2>
 
       {submitted ? (
@@ -87,7 +87,7 @@ export default function ContactForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-500 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-4 py-2 border-2 border-white/20 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
               required
             />
           </div>
@@ -105,7 +105,7 @@ export default function ContactForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-500 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-4 py-2 border-2 border-white/20 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
               required
             />
           </div>
@@ -123,7 +123,7 @@ export default function ContactForm() {
               value={formData.message}
               onChange={handleChange}
               rows="5"
-              className="w-full px-4 py-2 border border-gray-500 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-4 py-2 border-2 border-white/20 bg-transparent text-white rounded focus:outline-none focus:ring-2 focus:ring-green-500"
               required
             ></textarea>
           </div>
